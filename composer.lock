@@ -1,0 +1,211 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "17d905edd8c0602422d1d41648ef5432",
+    "content-hash": "93afed636d0e39d9f20a3d2b4c405e02",
+    "packages": [
+        {
+            "name": "ark/database",
+            "version": "v0.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arkphp/database.git",
+                "reference": "f96c829a015d2808e87222c5ab79fa1bad48d203"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arkphp/database/zipball/f96c829a015d2808e87222c5ab79fa1bad48d203",
+                "reference": "f96c829a015d2808e87222c5ab79fa1bad48d203",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ark\\Database\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liu Dong",
+                    "email": "ddliuhb@gmail.com",
+                    "homepage": "http://codecent.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Light weight database abstraction",
+            "homepage": "https://github.com/arkphp/database",
+            "keywords": [
+                "database",
+                "mysql",
+                "postgresql",
+                "sqlite",
+                "sqlite3"
+            ],
+            "time": "2015-08-25 17:18:06"
+        },
+        {
+            "name": "odango/odango.php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/odangomoe/odango.php.git",
+                "reference": "06ae73723f0e20d3f2be08f017066155f4e93f59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/odangomoe/odango.php/zipball/06ae73723f0e20d3f2be08f017066155f4e93f59",
+                "reference": "06ae73723f0e20d3f2be08f017066155f4e93f59",
+                "shasum": ""
+            },
+            "require": {
+                "ark/database": "^0.1.5",
+                "php-curl-class/php-curl-class": "^4.6",
+                "tedivm/stash": "^0.13.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Odango\\OdangoPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Corne Oppelaar",
+                    "email": "hello@eaterofco.de"
+                }
+            ],
+            "time": "2015-12-29 00:14:30"
+        },
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "4.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "91f937bb9e57fd1e1a550baab9f03f5a6e4203af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/91f937bb9e57fd1e1a550baab9f03f5a6e4203af",
+                "reference": "91f937bb9e57fd1e1a550baab9f03f5a6e4203af",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Curl\\": "src/Curl/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Zach Borboa"
+                }
+            ],
+            "description": "PHP Curl Class is an object-oriented wrapper of the PHP cURL extension.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "api",
+                "class",
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "json",
+                "php",
+                "requests",
+                "rest",
+                "restful",
+                "web service",
+                "xml"
+            ],
+            "time": "2015-10-31 18:25:18"
+        },
+        {
+            "name": "tedivm/stash",
+            "version": "v0.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tedious/Stash.git",
+                "reference": "e8ecfe8cbbbbb2345b6fb59c56f825685f7a2cb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tedious/Stash/zipball/e8ecfe8cbbbbb2345b6fb59c56f825685f7a2cb1",
+                "reference": "e8ecfe8cbbbbb2345b6fb59c56f825685f7a2cb1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "^1.9",
+                "phpunit/phpunit": "4.7.*",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stash\\": "src/Stash/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Hafner",
+                    "email": "tedivm@tedivm.com"
+                },
+                {
+                    "name": "Josh Hall-Bachner",
+                    "email": "charlequin@gmail.com"
+                }
+            ],
+            "description": "The place to keep your cache.",
+            "homepage": "http://github.com/tedious/Stash",
+            "keywords": [
+                "apc",
+                "cache",
+                "caching",
+                "memcached",
+                "redis",
+                "sessions"
+            ],
+            "time": "2015-08-02 06:31:49"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "odango/odango.php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

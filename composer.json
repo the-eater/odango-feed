@@ -1,0 +1,17 @@
+{
+    "name": "odango/odango-feed",
+    "description": "The library responsible for collecting feed and managing them",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Corne Oppelaar",
+            "email": "hello@eaterofco.de"
+        }
+    ],
+    "require": {
+        "odango/odango.php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Odango\\OdangoFeed\\": "src/" }
+    }
+}

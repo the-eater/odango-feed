@@ -1,0 +1,32 @@
+feed:
+    id
+    name unique
+    description ?
+    secret ?
+    password
+
+feed-series:
+    feed
+    query
+    serieshash
+    added
+
+CREATE TABLE `feed` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255),
+  `description` MEDIUMTEXT,
+  `secret` varchar(255),
+  `password` varchar(255),
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`name`)
+);
+
+CREATE TABLE `feedSeries` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `feed` int NOT NULL
+  `query` varchar(255),
+  `serieshash` varchar(255),
+  `added` DATETIME,
+  PRIMARY KEY (`id`),
+  KEY (`feed`)
+);
